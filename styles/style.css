@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -98,3 +99,150 @@ body {
 }
 
 /* banner */
+
+/* Menu Section */
+.menu-section {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #111;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-card h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 16px 0 10px;
+}
+
+.menu-card button {
+    background-color: #f9a825;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-card button:hover {
+    background-color: #fff176;
+}
+
+/* About Us Section */
+.about-section {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.restaurant-info {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.about-card {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+}
+
+.about-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #f9a825;
+}
+
+.about-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+    color: #111;
+}
+
+.about-card p {
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.about-us-text {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff9f0;
+    border-left: 6px solid #ff8c00;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
