@@ -20,7 +20,7 @@ This project is a clean, modern, and responsive restaurant website designed to s
 
 ## 💻 GitHub Repository
 
-👉 [GitHub Repo](https://github.com/your-github-repo-link)
+👉 [GitHub Repo](https://github.com/Irfananik/wp1_gp_bangpan_restaurant/tree/main)
 
 ## 👨‍💻 Project Members
 
